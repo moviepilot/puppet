@@ -3,12 +3,11 @@ Howto install puppet client
 
 You can either use bash and curl to pass the script directly to the shell
 
-<pre><code>$ bash < <( curl https://github.com/moviepilot/puppet/raw/master/tools/puppet-install-client.sh)
-</code></pre>
+    $ bash < <( curl https://github.com/moviepilot/puppet/raw/master/tools/puppet-install-client.sh)
 
 or
 
-<pre><code>$ wget https://github.com/moviepilot/puppet/raw/master/tools/puppet-install-client.sh
-$ sh puppet-install-client.sh</code></pre>
+    $ wget https://github.com/moviepilot/puppet/raw/master/tools/puppet-install-client.sh
+    $ sh puppet-install-client.sh
 
 
