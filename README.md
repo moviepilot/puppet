@@ -31,4 +31,4 @@ Now puppet (and facter) are installed as gems. The install-puppet-agent-script a
 Credits
 ===
 
-This script is inspired by the "Setting up Puppet on Ubuntu 10.04" tutorial on http://shapeshed.com/journal/setting-up-puppet-on-ubuntu-10-04/ which relies on bitfieldconsulting.com/puppet-tutorial
+This script is inspired by the "Setting up Puppet on Ubuntu 10.04" tutorial on http://shapeshed.com/journal/setting-up-puppet-on-ubuntu-10-04/ which relies on http://bitfieldconsulting.com/puppet-tutorial
