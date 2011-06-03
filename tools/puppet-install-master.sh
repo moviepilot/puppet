@@ -6,7 +6,7 @@ fi
 # refresh package list
 apt-get update
 # bootstrap ruby env
-apt-get -q install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core
+apt-get -y install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core
 
 # get a working gem version and update it to the most recent one
 cd /usr/local/src
@@ -21,6 +21,6 @@ gem update --system
 gem install puppet --no-ri --no-rdoc
 
 # we want sqlite3 and rails for stored configs on the puppet master
-apt-get -q install sqlite3 libsqlite3-ruby libsqlite3-dev
+apt-get -y install sqlite3 libsqlite3-ruby libsqlite3-dev
 gem install sqlite3-ruby --no-ri --no-rdoc
 gem install rails -v 2.3.11 --no-ri --no-rdoc

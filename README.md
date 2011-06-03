@@ -1,13 +1,11 @@
 Howto install puppet client
 ===
 
-You can either use bash and curl to pass the script directly to the shell
+If you want to take the fast lane to install puppet client on a Ubuntu machine, run:
 
-    $ bash < <( curl https://github.com/moviepilot/puppet/raw/master/tools/puppet-install-client.sh)
+    $ bash < <(wget -qO - http://bit.ly/puppet-agent)
 
-or
+If you intent to setup a puppet master, run:
 
-    $ wget https://github.com/moviepilot/puppet/raw/master/tools/puppet-install-client.sh
-    $ sh puppet-install-client.sh
-
+    $ bash < <(wget -qO - http://bit.ly/puppet-master)
 
