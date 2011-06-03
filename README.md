@@ -5,14 +5,14 @@ This repository provides optimized scripts for installation of a Puppet agent or
 
 The scripts won't ask you for confirmation. 
 
-Howto install Puppet agent
+How to install Puppet agent
 ===
 
 If you want to take the fast lane, just run:
 
     $ bash < <(wget -qO - http://bit.ly/install-puppet-agent)
 
-Howto install Puppet master
+How to install Puppet master
 ===
 
 If you intent to setup a puppet master, run:
