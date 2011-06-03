@@ -6,7 +6,7 @@ fi
 # refresh package list
 apt-get update
 # bootstrap ruby env
-apt-get -q install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core
+apt-get -y install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core
 
 # get a working gem version and update it to the most recent one
 cd /usr/local/src
