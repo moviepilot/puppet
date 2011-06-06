@@ -10,14 +10,14 @@ How to install Puppet agent
 
 If you want to take the fast lane, just run:
 
-    $ bash < <(wget -qO - http://bit.ly/install-puppet-agent)
+    $ bash < <(wget -qO - https://bit.ly/install-puppet-agent)
 
 How to install Puppet master
 ===
 
 If you intent to setup a puppet master, run:
 
-    $ bash < <(wget -qO - http://bit.ly/install-puppet-master)
+    $ bash < <(wget -qO - https://bit.ly/install-puppet-master)
 
 What the scripts do
 ===
