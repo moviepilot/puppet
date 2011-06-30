@@ -6,7 +6,7 @@ fi
 # refresh package list
 apt-get update
 # bootstrap ruby env
-apt-get -y install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core
+apt-get -y install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core augeas-lenses augeas-tools
 
 # get a working gem version and update it to the most recent one
 cd /usr/local/src
@@ -18,4 +18,4 @@ update-alternatives --install /usr/bin/gem gem /usr/bin/gem1.8 1
 gem update --system
 
 # install puppet itself
-gem install puppet --no-ri --no-rdoc
+gem install puppet -v 2.6.8 --no-ri --no-rdoc

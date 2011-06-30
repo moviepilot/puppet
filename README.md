@@ -1,3 +1,8 @@
+Attention
+===
+
+Due to current issues with Puppet 2.7.x we decided to hardcode Puppet version 2.6.8 in this installer scripts.
+
 About
 ===
 
