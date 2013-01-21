@@ -6,7 +6,7 @@ fi
 # refresh package list
 apt-get update
 # bootstrap ruby env
-apt-get -y install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core augeas-lenses augeas-tools libaugeas-ruby
+apt-get -y install irb libopenssl-ruby libreadline-ruby rdoc ri ruby ruby-dev git-core augeas-lenses augeas-tools libaugeas-ruby build-essential
 
 # get a working gem version and update it to the most recent one
 cd /usr/local/src
